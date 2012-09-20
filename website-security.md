@@ -25,11 +25,11 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 - Simple's cloud infrastructure makes use of Multi-Factor Authentication.
 
-- Public Key Infrastructure (PKI) encryption (AES 256) is used when storing sensitive customer data. 
+- Public Key Infrastructure (PKI) is used to protect sensitive customer data.
 
-- All asymmetric keys use a minimum key length of 4,096 bits and symmetric keys use a minimum of 256 bits.
+- All asymmetric keys use a minimum key length of 2,048 bits (for RSA/DSA) and symmetric keys use a minimum of 128 bits (AES-256 is preferred).
 
-- All [Customer Information](https://banksimple.com/policies/privacy/) is encrypted with strong Public Key encryption; private keys to decrypt this data are not kept in the production environment.
+- All [Customer Information](https://banksimple.com/policies/privacy/) is encrypted with strong public-key encryption; private keys to decrypt this data are not kept in the production environment.
 
 - Simple applications undergo regular internal source code audits. Internal audits are augmented by semi-regular third-party audits.
 
