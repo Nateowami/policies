@@ -16,7 +16,7 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 - Our information security team performs regular software updates throughout the Simple infrastructure to remain up-to-date on software security patches.
 
-- Card numbers, mag-stripe data, and security codes are handled in accordance with PCI Level-1 requirements.
+- Card numbers, mag-stripe data, and security codes are handled in accordance with PCI DSS requirements.
 
 
 ## Software and web application security
@@ -25,15 +25,11 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 - Simple's cloud infrastructure makes use of Multi-Factor Authentication.
 
-- Public Key Infrastructure (PKI) is used to protect sensitive customer data.
-
-- All asymmetric keys use a minimum key length of 2,048 bits (for RSA/DSA) and symmetric keys use a minimum of 128 bits (AES-256 is preferred).
-
-- All [Customer Information](https://banksimple.com/policies/privacy/) is encrypted with strong public-key encryption; private keys to decrypt this data are not kept in the production environment.
+- Industry-standard (symmetric and asymmetric) encryption algorithms with appropriately sized keys are used to protect sensitive [Customer Information](https://banksimple.com/policies/privacy/).
 
 - Simple applications undergo regular internal source code audits. Internal audits are augmented by semi-regular third-party audits.
 
-- Simple developers practice secure coding practices. All Simple code complies with various Secure Coding Standards, including OWASP and CLASP.
+- Standards and leading practices identified by independent security organizations (e.g., OWASP) are integrated in to all Simple code creation processes.
 
 
 
@@ -41,7 +37,7 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 - Data is aggressively archived and Simple performs regular offsite backups to ensure redundancy.
 
-- All database servers are multi-homed.
+- Simple services are designed to tolerate failures in supporting infrastructure while maintaining continuity of operations; we place a high priority on redundancy and ensuring maximum availability of our services.
 
 - Simple follows industry standard incident response procedures with a dedicated incident response team.
 
