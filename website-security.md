@@ -25,7 +25,7 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 - Simple's cloud infrastructure makes use of Multi-Factor Authentication.
 
-- Industry-standard (symmetric and asymmetric) encryption algorithms with appropriately sized keys are used to protect sensitive [Customer Information](https://banksimple.com/policies/privacy/).
+- Industry-standard (symmetric and asymmetric) encryption algorithms with appropriately sized keys are used to protect sensitive [Customer Information](https://banksimple.com/policies/website-privacy/).
 
 - Simple applications undergo regular internal source code audits. Internal audits are augmented by semi-regular third-party audits.
 
