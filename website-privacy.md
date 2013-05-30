@@ -3,7 +3,8 @@ layout: default
 title: Privacy Policy
 body_class: policy
 ---
-_Effective as of June 1, 2013_
+
+_Effective as of May 30, 2013_
 
 Hi! We've created this Privacy Policy to let you know how simple.com uses any information that you provide to us when you visit this site. This policy defines what we will and won’t do with any personal information that we gather while you are visiting simple.com. Before we kick off with legalese, let's make one thing clear:
 
