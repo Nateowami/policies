@@ -102,3 +102,13 @@ If you are able, please use the below key to encrypt any messages regarding secu
 	bFPIONaxWva2HWgjaUJK8fNZIp9jX5wcdqndwtBTxnUWW6uT
 	=/PVg
 	-----END PGP PUBLIC KEY BLOCK-----
+
+
+
+## Acknowledgments
+
+The following researchers have submitted reports to Simple that have contributed to the continuing security of Simple's services and we would like to gratefully acknowledge their efforts.
+
+*2013*
+- Kamil Sevi: https://twitter.com/kamilsevi
+
