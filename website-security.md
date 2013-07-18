@@ -21,9 +21,9 @@ Simple Finance Technology Corp., the creator of Simple, meets all industry stand
 
 ## Software and web application security
 
-- Web APIs and web pages are secured with 256-bit High Assurance SSL certificates.
+- Web APIs and web pages are secured with High Assurance SSL certificates that support encryption algorithms with key lengths up to 256 bits and prohibit any key lengths shorter than 128 bits.
 
-- Simple's cloud infrastructure makes use of Multi-Factor Authentication.
+- Simple's cloud infrastructure employs Multi-Factor Authentication for management operations.
 
 - Industry-standard (symmetric and asymmetric) encryption algorithms with appropriately sized keys are used to protect sensitive [Customer Information](https://banksimple.com/policies/website-privacy/).
 
