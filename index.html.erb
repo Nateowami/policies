@@ -1,0 +1,12 @@
+---
+title: Policies
+---
+
+<section class="centered">
+  <h1>Policies</h1>
+  <ul class="sidebar-tabs">
+    <% sitemap.resources.select {|r| /policies\// =~ r.destination_path }.each do |r| %>
+      <li><h5><a href="/<%= r.destination_path.gsub('/index.html','') %>"><%= r.data.title %></a></h5></li>
+    <% end %>
+  </ul>
+</section>
