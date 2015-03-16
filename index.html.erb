@@ -1,12 +1,17 @@
 ---
 title: Policies
+body_classes: policies-page
+layout: policies
 ---
 
-<section class="centered">
-  <h1>Policies</h1>
-  <ul class="sidebar-tabs">
+<section class="centered-section">
+  <ul class="unstyled-list">
     <% sitemap.resources.select {|r| /policies\// =~ r.destination_path }.each do |r| %>
-      <li><h5><a href="/<%= r.destination_path.gsub('/index.html','') %>"><%= r.data.title %></a></h5></li>
+      <li>
+        <a class="large-type" href="/<%= r.destination_path.gsub('/index.html','') %>">
+          <%= r.data.title %>
+        </a>
+      </li>
     <% end %>
   </ul>
 </section>
