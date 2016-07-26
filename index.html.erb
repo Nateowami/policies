@@ -4,9 +4,38 @@ body_classes: policies-page
 layout: policies
 landing: true
 ---
+
 <section class="centered-section">
+
+  <%
+  categories = [
+    'Simple Accounts supported by The Bancorp Bank',
+    'Simple Accounts supported by BBVA Compass',
+    'All Simple Customers',
+    'Simple Finance Technology Corporation'
+  ]
+%>
+
+<% (site_url == '/new') ? pol_prefix = 'new/' : pol_prefix = '' %>
   
-  <h3 class="center-type">
+<div class="content flex-container">
+  <% categories.each do |cat| %>
+    <div class="policy-block">
+      <h3><%= cat %></h3>
+      <ul class="unstyled-list">
+        <% sub_pages(pol_prefix+'policies').each do |policy| %>
+          <% if (policy.data.category == cat) %>
+            <li>
+              <%= link_to policy.data.title, site_url+policy.url %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
+  
+  <!-- <h3 class="center-type">
     Your Simple Account is supported by one of two financial institutions. Be sure to review the correct documents for your account.
   </h3>
   
@@ -52,6 +81,6 @@ landing: true
     <li><a class="large-type" href="/policies/security">Simple Security Policy</a></li>
     <li><a class="large-type" href="/policies/events-hosting-policy">Simple Events Hosting Policy</a></li>
     <li><a class="large-type" href="/policies/events-code-of-conduct">Simple Events Code of Conduct</a></li>
-  </ul>
+  </ul> -->
 
 </section>
