@@ -23,10 +23,10 @@ landing: true
     <div class="policy-block">
       <h3><%= cat %></h3>
       <ul class="unstyled-list">
-        <% sub_pages(pol_prefix+'policies').each do |policy| %>
+        <% sub_pages('policies').each do |policy| %>
           <% if (policy.data.category == cat) %>
             <li>
-              <%= link_to policy.data.title, site_url+policy.url %>
+              <%= link_to policy.data.title, policy.url %>
             </li>
           <% end %>
         <% end %>
